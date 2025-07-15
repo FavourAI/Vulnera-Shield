@@ -1,0 +1,25 @@
+.step-number {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.file-upload-container {
+    border: 2px dashed #dee2e6;
+    transition: all 0.3s ease;
+}
+
+.file-upload-container:hover {
+    border-color: #0d6efd;
+    transform: translateY(-5px);
+}
+
+.feature-icon i {
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover .feature-icon i {
+    transform: scale(1.2);
+}
